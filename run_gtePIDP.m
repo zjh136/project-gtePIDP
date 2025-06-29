@@ -1,14 +1,4 @@
 
-load M;
-load E;
-load D;
-load I;
-
-lambda=0.3;
-p_threshold=0.0001;
-
-exclusion=[];
-
 %
 % M : (sample) x (mutation_gene)         mutation matrix
 % E : (expression_gene) x (sample)       expression matrix
@@ -21,6 +11,18 @@ exclusion=[];
 % p_threshold : i.e., the parameter \beta in the model
 % exclusion : the genes which are to be excluded from the results
 %
+
+
+load M;
+load E;
+load D;
+load I;
+
+lambda=0.3;
+p_threshold=0.0001;
+
+exclusion=[];
+
     
 for k=2:10  
     

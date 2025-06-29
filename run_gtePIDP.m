@@ -1,6 +1,4 @@
 
-tic
-
 load M;
 load E;
 load D;
@@ -31,5 +29,3 @@ for k=2:10
     eval(['save data',num2str(k)]);
     
 end
-
-toc

@@ -26,7 +26,7 @@ exclusion=[];
     
 for k=2:10  
     
-    maxpop = GA_mutation_TF_miRNA_expression(A,E,T,L,k,lambda,p_threshold,exclusion)
+    maxpop = gtePIDP(A,E,T,L,k,lambda,p_threshold,exclusion);
 
     eval(['save data',num2str(k)]);
     
